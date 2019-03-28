@@ -1,0 +1,135 @@
+.page-servicos{
+  .title-pad2{
+    margin-bottom: 120px !important;
+  }
+  .sec-nossos-servicos{
+    padding-top: 0px;
+  }
+  .servicos-pad{
+    margin-bottom: 36px;
+  }
+  .serv2{
+    margin-bottom: 0px;
+    padding: 55px 0px 28px;
+    @media(min-width: 992px){
+      padding: 48px 0px;
+    }
+  }
+
+  .sec-quem-somos{
+    padding: 0px;
+    background: #fff;
+
+    @media(min-width: 768px){
+      width: 55%;
+      margin: 0 auto;
+
+      .content p{
+        max-width: 475px;
+      }
+    }
+
+    a{
+      margin-top: 32px;
+    }
+  }
+
+
+}
+
+.sec-difrencial-tab{
+  .title-pad{
+    margin-bottom: 75px;
+  }
+
+  .content-mob{
+    margin-bottom: 38px;
+    @media(min-width: 580px){
+      display: none;
+    }
+    p{
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 24px;
+
+      span{
+        font-family: $bold;
+        color: $corPrim02;
+      }
+
+      &:last-child{
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .content{
+    margin-bottom: 70px;
+    display: none;
+    @media(min-width: 580px){
+      display: flex;
+    }
+
+    h3{
+      color: $corPrim01;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-family: $bold;
+    }
+
+    .left{
+      text-align: right;
+      position: relative;
+      right: 8px;
+
+      h3{
+        color: $corPrim02;
+      }
+    }
+    .separa{
+      width: 3px;
+      background: rgba(0,0,0,0.1);
+      height: 100%;
+      margin: 0px 38px;
+
+      @media(max-width: 768px){
+        margin: 0px 24px;
+      }
+    }
+
+    li{
+      width: 245px;
+      margin-bottom: 24px;
+      line-height: 22px;
+      height: 150px;
+
+      @media(min-width: 768px){
+        width: 320px;
+        height: 130px;
+      }
+      @media(min-width: 992px){
+        width: 400px;
+        height: 100px;
+      }
+      @media(min-width: 1200px){
+        width: 490px;
+        height: 70px;
+      }
+
+      &:last-child{
+        margin-bottom: 0px;
+      }
+
+      span{
+        color: $corPrim02;
+        font-weight: bold;
+        font-family: $italic;
+        display: block;
+      }
+    }
+
+    .btn1{
+      margin: 0 auto;
+    }
+  }
+}

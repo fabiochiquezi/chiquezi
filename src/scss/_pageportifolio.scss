@@ -1,0 +1,38 @@
+// Portifólio
+.page-portifolio{
+  .title-pad2{
+    margin-bottom: 90px;
+  }
+  .sec-portifolio{
+    padding: 0px;
+    @media(min-width: 992px){
+      max-width: 768px;
+      margin: 0 auto;
+
+      .item{
+        width: 31% !important;
+      }
+    }
+    @media(min-width: 1200px){
+      max-width: 992px;
+    }
+  }
+}
+
+.sec-servicos-lista.serv2{
+  padding: 48px 0px;
+  margin-bottom: 75px;
+  background: #333;
+  color: #fff;
+
+  .title-pad{
+    h2, span{
+      color: #fff; 
+    }
+  }
+  .item{
+    p{
+      color: #fff;
+    }
+  }
+}
